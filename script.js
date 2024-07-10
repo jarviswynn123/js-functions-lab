@@ -272,8 +272,8 @@ This function should return the count of arguments passed to it when called.
 Complete the exercise in the space below:
 */
 
-function numArgs() {
-    
+function numArgs(...args) {
+    return args.length
 }
 
 console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
